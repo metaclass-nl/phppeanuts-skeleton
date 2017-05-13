@@ -22,7 +22,7 @@ What's new
 		<li>Now uses composers autoloader to load Site class. (All furhter loading of classes used by phpPeanuts
 		  is still done through explicit Gen::(try)includeClass calls)
 		<li>You may use other libraries installed by composer and autoload their classes
-		 the composer way als long as their class names do not conflict with the existing
+		 as long as their class names do not conflict with the existing
 		 (phpPeanuts and it applications) classes. Most libraries nowadays use
 		 name spaces thus will not conflict.
 	</ul>
