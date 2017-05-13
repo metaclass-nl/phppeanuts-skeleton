@@ -83,8 +83,6 @@ Known bugs and limitations
 	to do so.)
 	<li>The AGPL license requires you to make the source of applications using this version
 	of phpPeanuts available to any users outside your own organization, and allow them forward
-	it to the rest of the world. An extended commercial edition is available on request under 
-	developers licenses that do not include obligations to publish derived works etc. 
-	For more info see the Support menu of the phpPeanuts website.
+	it to the rest of the world. 
 </OL>
 
