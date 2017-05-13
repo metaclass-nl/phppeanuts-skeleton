@@ -15,5 +15,6 @@ Adapted to use of composer
 - adapted emptyapp/skinIndex.php to the unavailability of the examples
 - added README.md
 - added conf/changes.txt
-
-comitted to git
+-------------------------------
+- replaced html license with text version
+---------------------------------------
