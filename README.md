@@ -1,12 +1,15 @@
 Release notes
 =============
-Version 2.3.0.alpha skeleton application
+Version 2.3.0.rc1 skeleton application
 
 Skeleton application from phpPeanuts 2.2.0. adapted to the use of composer.
-This version does not include the examples nor pntUnit and the unit tests.
+This version does not include the examples or pntUnit.
 
+To install run:
+``` bash
+composer create-project metaclass-nl/phppeanuts-skeleton my_project_name dev-master
+```
 Before testing you need to make configurations in conf/scriptMakeSettings.php
-and run composer install.
 
 What's new
 ----------
@@ -17,7 +20,7 @@ What's new
 		<li>Reorganized directory structure
 		<li>Added composer.json
 		<li>Now uses composers autoloader to load Site class. (All furhter loading of classes used by phpPeanuts
-		  is still done through explicit (try)includeClass calls)
+		  is still done through explicit Gen::(try)includeClass calls)
 		<li>You may use other libraries installed by composer and autoload their classes
 		 the composer way als long as their class names do not conflict with the existing
 		 (phpPeanuts and it applications) classes. Most libraries nowadays use
@@ -44,9 +47,12 @@ To install your existing applications in the skeleton:
 - remove emptyapp
 
 Additionally you may:
-- move reusable class library folders to separate composer libraries
-- adapt composer.json to have composer install the libraries
-- adapt src/classSite.php $pntLibraries to use the classes from the libraries once installed
+- use composer libraries by adding them to composer.json require or require-dev
+- move your reusable class library folders to separate composer libraries
+- adapt composer.json to have composer install your libraries
+- adapt src/classSite.php $pntLibraries to use the classes from your libraries once installed
+  (only those that need to be loaded through Gen::(try)includeClass)
+- run composer update to install the libraries  
 
 If you choose to use a different directory instead of vendor you need to:
 - adapt src/classSite.php $pntLibraries to use the correct locations
