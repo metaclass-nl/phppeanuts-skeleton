@@ -1,0 +1,378 @@
+body {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom:0;
+	margin-right:0;
+	font-family: verdana;
+	font-size: 10px;
+	background-color: white; /* #FDEFDC */
+}
+
+DIV.bar {
+	color: #ff0033;
+	background-color: #ff0033;
+	height: 8px;
+}
+
+p, td {
+	font-family: verdana;
+	font-size: 10px;
+}
+
+LI {
+	font-family: verdana;
+	font-size: 12px;
+}
+
+th {
+	text-align: left;
+}
+
+h1, .h1 {
+	font-family: verdana;
+	font-size: 16px;
+}
+
+h2, .h2, .pntMultiPropLabel {
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+.pntMultiPropTitleRow {
+	width: 		100%;
+	clear:		both;
+}
+.pntMultiPropTableDiv {
+	clear:		both;
+}
+.pntMultiPropLabel, .pntMultiPropButtons {
+	margin-top: 18;
+	margin-bottom: 7;
+	position:		relative;
+	display:		inline;
+	float:			left;
+}
+.pntMultiPropButtons {
+	margin-left: 20px;
+}
+.pntRecurseMultiPropLabel{
+	font-weight: bold;
+	margin-top: 4;
+	margin-bottom: 0;
+}
+.pntRecurseMultiPropsCell {
+	padding-left: 20;
+	padding-bottom: 7;
+	background-color: #FBFFB3;
+}
+.pntMenuLine {
+	margin-top: 3;
+}
+.pntSubmenuLine {
+}
+.maintable {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom:0;
+	margin-right:0;
+	background-color:#FFFFFF;
+}
+
+.bold, .pntIth, .pntItf, .pntMenuHead, .pntInfoHead, .pntHeader {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.pntItemTable {
+	font-size: 10px;
+	font-family: verdana;
+	background-color: #E4AC34;
+}
+
+.pntGroupPane {
+	font-size: 10px;
+	font-family: verdana;
+	background-color: #FFFFFF;
+}
+
+.pntGroupContent {
+	font-size: 10px;
+	font-family: verdana;
+	background-color:#FFFFFF;
+}
+
+.pntDetailsTable {
+	background-color: #FBFFB3;
+}
+
+.pntFilter {
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #cfcfcf;;
+}
+
+.pntFooter {
+	font-size: 10px;
+	font-weight: bold;
+	color: #ff0033;
+	text-decoration:none;
+}
+
+.pntPageTitle {
+	background-repeat: repeat-x;
+	font-size: 16px;
+	background-color:#FFFFFF;
+}
+
+.pntInfo {
+	background-image: url(../images/info.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	font-size: 10px;
+}
+
+.pntInfoOk {
+	background-image: url(../images/info.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #adffaf;
+	font-size: 10px;
+}
+
+.pntInfoError {
+	background-image: url(../images/info.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #ff6f5f;
+	font-size: 10px;
+}
+
+.pntInfoWarning {
+	background-color: yellow;
+	font-size: 10px;
+	padding: 3;
+}	
+
+.pntMenuPart{
+	background-image: url(../images/menupart.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color:#cfcfcf;
+	font-size: 10px;
+}
+
+.funkyButton {
+	border: 1px solid #DDDDDD;
+	color:black;
+	font-size: 10px;
+	height: 25px;
+	background-image: url(../images/buttonverloop.jpg);
+	background-repeat: repeat-x;	
+}
+.funkyButtonGhost {
+	border: 1px solid #DDDDDD;
+	color:#7D7D7D;
+	font-size: 8px;
+	height: 25px;
+	background-image: url(../images/buttonverloop.jpg);
+	background-repeat: repeat-x;	
+}
+@media print {
+ 	.funkyButton, .funkyButtonGhost {
+ 		display: none;
+ 	}
+}
+
+.pntNormal, input, textarea, select {
+	font-size: 10px;
+	font-family: verdana;
+}
+#pntPageLabel {
+	font-weight: 	bold;
+	text-align:		center;
+}
+
+.pntTabPart {
+	z-index:		0;
+	padding:		2px 2px 2px 2px;
+}
+
+.pntTab {
+	font:			11px Tahoma;
+	width:			103px;
+	height:			18px;
+	background-image: url( "../images/pntTab.gif" );
+	position:		relative;
+	display:		inline;
+	float:			left;
+	overflow:		hidden;
+	cursor:			Default;
+	border:			0;
+	white-space:	nowrap;
+	text-align:		center;
+	z-index:		1;
+	margin:			1px -1px 1px 2px;
+	padding:		3px 0px 0px 0px;
+	top:			2px;
+}
+
+.pntTab_selected {
+	font:			11px Tahoma;
+	width:			107px;
+	height:			20px;
+	background-image:	url( "../images/pntTab_selected.gif" );
+	position:		relative;
+	display:		inline;
+	float:			left;
+	overflow:		hidden;
+	cursor:			Default;
+	border:			0;
+	white-space:	nowrap;
+	text-align:		center;
+	z-index:		3;
+	padding:		4px 0 0px 0;
+	margin:			1px -3px -3px 0px;
+	top:			0px;
+
+	border-bottom-width: 0;
+}
+
+.pntTabContent {
+	clear:			both; 
+	z-index:		2;
+	border:			1px solid #919191;
+	color:			Black;
+	clear:			both;
+}
+#pntTabTrailer {
+	display:		inline;
+	float:			left;
+	height: 		0px;
+	margin:			0;
+	padding:		0;
+}
+.pntDetailsGroup {
+	border:			1px solid #919191;
+	background:		#FFE3C6;
+}
+
+#advancedFilterOverlay {
+	border:	1px solid #7B9EBD;
+	padding: 2px 6px 2px 2px;
+	background-color: #FFFFFF;
+}
+.pntAdvFilterCombine, .pntTreeWidgetDiv, .compSelectDiv, .value1Div, .comparatorDiv, .pntAdvFilterCompare {
+ 	display: inline; float: left; 
+ }
+.pntAdvFilterCombine {
+	clear: left;
+}
+.pntAdvFilterCompare { 
+}
+#pntAdvancedSearchButtonDiv {
+	clear: both;
+}
+
+.pntDialogWidgetDiv {
+	width: 224;
+	// width: 236px;
+}
+.pntButtonPopup {
+	position: relative; left:0px; top:0px; 
+	// left: -2;
+	height: 19px; width: 18px;
+}
+.pntClearWidgetButton {
+	position:relative; top:0px; 
+	left:-2px;
+	// left:-2px;
+}
+.pntShortlistWidgetDiv {
+	white-space:nowrap;	
+	padding: 0; 
+	margin: 0;
+	position: relative;
+	top: -3; // top: -2;
+}
+.pntShortlistButtonPopup {
+	position:relative; left:0px; top:6px; 
+	// top: 4px;
+	height: 18px; width: 18px;
+}
+.pntMtoNButtonPopup {
+	position:relative; left:0px; top:0px; 
+	//left: -3px;
+	height: 19px; width: 18px;
+}
+.pntDialogWidget, .pntMtoNDialogWidget {
+	background:		#FFFFFF;
+	float: 			left;
+	border:	1px solid #7B9EBD;
+	padding:		2px;
+	white-space:	normal;
+	width:			190px;
+	// width:			195px;
+}
+select {
+	height: 18px; 
+}
+.error {
+	background-color: #ff6f5f;
+}
+
+.pntDetailsTextArea {
+	width:			298px;
+	// width:			221px;
+	height: 		80px;
+}
+.pntDetailsGroupHeader {
+	background:		#FFE3C6;
+	text-align: center;
+	font-weight: bold;
+	border-color: #919191;
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+}
+.pntDetailsGroupLeft {
+	background:		#FFE3C6;
+	font-weight: bold;
+	border-left:	1px solid #7B9EBD;
+	padding-left: 5px;
+}
+.pntDetailsGroupRight {
+	background:		#FFE3C6;
+	border-right:	1px solid #7B9EBD;
+	padding-right: 2px;
+}
+.pntDetailsGroupMiddle {
+	background:		#FFE3C6;
+}
+@media print {
+	.noPrint {
+		display: none;
+	}
+}
+#pntLoginDiv {
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+.pntGridErrorIcon {
+	height: 18px;
+}
+.pntGridErrorTip {
+	position: absolute;
+	top: 200;
+	left: 200;
+	z-index:	3;
+	display: none;
+	background-color: white;
+	border: 5px solid #ff6f5f;
+	padding: 2px;
+}
+.pntGridTableDiv,.VersionGridTableDiv {
+	clear:		both;
+}
+a.pntGridDeleteIcon (
+	
+ }

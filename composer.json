@@ -1,0 +1,18 @@
+{
+    "name": "metaclass-nl/phppeanuts-skeleton",
+    "license": "AGPL-3.0",
+    "type": "project",
+    "description": "Skelton application from the phppeanuts framework",
+    "autoload": {
+        "files": ["src/classSite.php"]
+    },
+    "require": {
+        "php": ">=5.0",
+        "metaclass-nl/phppeanuts-classes-pnt": "dev-master"
+	},
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "extra": {
+    }
+}

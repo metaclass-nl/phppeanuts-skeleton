@@ -1,0 +1,19 @@
+changes since pnt 2.2.0:
+
+Adapted to use of composer
+- moved classes/pnt folder to separate composer library
+- renamed classes folder to src
+- renamed includes folder to resources/views
+- renamed license html to meta/LICENSE.html
+- removed readme.html and changes.txt
+- moved the other folders and files to new public folder
+- added composer.json
+- adapted Site to configure class and skin inclusion from new locations
+- added Gen (try)includeClass overrides to use new classes location and library class inclusion configuration
+- adapted public/index.html
+- adapted emptyapp/index.php to use composer classloader to load class Site
+- adapted emptyapp/skinIndex.php to the unavailability of the examples
+- added README.md
+- added conf/changes.txt
+
+comitted to git
