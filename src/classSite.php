@@ -11,10 +11,10 @@ See the License, http://www.gnu.org/licenses/agpl.txt */
 
 global $pntLibraries;
 $pntLibraries = (object) array(
-	'pnt' => '../../vendor/metaclass-nl/phppeanuts-classes-pnt/src',
+	'pnt' => '../../vendor/metaclass-nl/phppeanuts-classes-pnt',
 );
 
-require_once($pntLibraries->pnt. '/pnt/classPntGen.php');
+require_once($pntLibraries->pnt. '/src/pnt/classPntGen.php');
 require_once("../../src/classGen.php");
 
 //activate the following if you need depricated functions

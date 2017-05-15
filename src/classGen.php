@@ -24,8 +24,8 @@ class Gen extends PntGen {
             $dirPath .= '/';
 
         $dir1 = subStr($dirPath, 0, strPos($dirPath, '/'));
-        $basePath = (isSet($pntLibraries->$dir1) ? $pntLibraries->$dir1 : '../../src');
-        $result = Gen::tryIncludeOnce("$basePath/$dirPath"."class$className.php"); //warning in PntGen method comment
+        $basePath = (isSet($pntLibraries->$dir1) ? $pntLibraries->$dir1 : '../..');
+        $result = Gen::tryIncludeOnce("$basePath/src/$dirPath"."class$className.php"); //warning in PntGen method comment
 
         return $result;
     }
@@ -39,11 +39,11 @@ class Gen extends PntGen {
             if ($dirPath && substr($dirPath, -1) != '/')
                 $dirPath .= '/';
             $dir1 = subStr($dirPath, 0, strPos($dirPath, '/'));
-            $basePath = (isSet($pntLibraries->$dir1) ? $pntLibraries->$dir1 : '../../src');
+            $basePath = (isSet($pntLibraries->$dir1) ? $pntLibraries->$dir1 : '../..');
             if ($result)
-                print ("Included: $basePath/$dirPath"."class$className.php<BR>");
+                print ("Included: $basePath/src/$dirPath"."class$className.php<BR>");
             else
-                trigger_error("Could not include: $basePath/$dirPath"."class$className.php", E_USER_WARNING);
+                trigger_error("Could not include: $basePath/src/$dirPath"."class$className.php", E_USER_WARNING);
         }
         return $result;
     }

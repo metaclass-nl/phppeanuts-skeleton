@@ -18,3 +18,5 @@ Adapted to use of composer
 -------------------------------
 - replaced html license with text version
 ---------------------------------------
+- made $pntLibraries usable for default skin inclusion
+---------------------------------------------
