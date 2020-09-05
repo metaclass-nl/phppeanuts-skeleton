@@ -11,6 +11,8 @@ composer create-project metaclass-nl/phppeanuts-skeleton my_project_name dev-mas
 ```
 Before testing you need to make configurations in conf/scriptMakeSettings.php
 
+Documentation of phpPeanuts: https://www.phppeanuts.org/
+
 What's new
 ----------
 <P>Since 2.2.0</P>

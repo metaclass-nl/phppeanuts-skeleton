@@ -3,6 +3,12 @@
     "license": "AGPL-3.0",
     "type": "project",
     "description": "Skelton application from the phppeanuts framework",
+    "authors": [
+        {
+            "name": "MetaClass Groningen",
+            "homepage": "https://www.phppeanuts.org/"
+        }
+    ],
     "autoload": {
         "files": ["src/classSite.php"]
     },
