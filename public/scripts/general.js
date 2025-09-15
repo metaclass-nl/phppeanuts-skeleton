@@ -1,4 +1,4 @@
-// Copyright (c) the partners of MetaClass, 2003, 2004, 2005
+// Copyright (c) the partners of MetaClass, 2003, 2004, 2005. All rights reserved.
  
 //this file should not contain any application- or installation specific code
 //for example localization-specific code should be factored out and overridden in

@@ -14,11 +14,10 @@
     },
     "require": {
         "php": ">=5.0",
-        "metaclass-nl/phppeanuts-classes-pnt": "dev-master"
+        "metaclass-nl/phppeanuts-classes-pnt": "^2.3"
 	},
     "require-dev": {
     },
-    "minimum-stability": "dev",
     "extra": {
     }
 }

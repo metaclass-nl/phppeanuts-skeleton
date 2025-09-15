@@ -20,3 +20,9 @@ Adapted to use of composer
 ---------------------------------------
 - made $pntLibraries usable for default skin inclusion
 ---------------------------------------------
+- Updated copyright notice scripts/general.js
+- updated version number
+- updated composer requirements
+- removed reference to examples from emptyapp
+- corrected license limitation in readme
+comitted 15-9-2025

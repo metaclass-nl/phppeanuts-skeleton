@@ -19,6 +19,3 @@ index.php in your new folder you have successfully created a new application.
 
 Because phpPeanuts is in minimal maintenance mode we don't expect
 any new developers using it. Therefore the examples are not available for this version.
-The last version of the examples is for phpPeanuts 2.2:
-<A HREF='http://www.phppeanuts.org/site/index_php/Menu/23/Download.html'>on the phppeanuts.org website</A>. See
-<A HREF='http://www.phppeanuts.org/site/index_php/Pagina/143/How+to+install+the+examples.html'>how to install the examples</A>

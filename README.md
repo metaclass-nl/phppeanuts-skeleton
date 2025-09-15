@@ -1,6 +1,6 @@
 Release notes
 =============
-Version 2.3.0.rc1 skeleton application
+Version 2.3.0 skeleton application
 
 Skeleton application from phpPeanuts 2.2.0. adapted to the use of composer.
 This version does not include the examples or pntUnit.
@@ -74,8 +74,8 @@ Known bugs and limitations
 	problems and solutions with the use of other databases. (Known: Oracle versions below 9 do not support standard
 	explicit JOIN syntax, but producing JOIN instuctions is not delegated to DAO objects and can not be easily refactored
 	to do so.)
-	<li>The AGPL license requires you to make the source of applications using this version
-	of phpPeanuts available to any users outside your own organization, and allow them forward
+	<li>The AGPL license requires you to license the source of applications using this version
+	of phpPeanuts to any users outside your own organization, and allow them forward
 	it to the rest of the world. 
 </OL>
 
